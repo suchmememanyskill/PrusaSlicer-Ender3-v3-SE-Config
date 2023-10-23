@@ -1,0 +1,26 @@
+name: Builder
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    name: Build Config Bundle
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+    
+    - name: Generate Bundle
+      run: |
+        python3 generate_config_bundle.py
+    
+    - name: Upload Bundle
+      uses: actions/upload-artifact@v3
+      with:
+        name: Config Bundle
+        path: ./PrusaSlicer_config_bundle.ini
