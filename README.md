@@ -12,19 +12,11 @@ Feel free to contribute! If you have any questions, suggestions or improvements,
 ![Creality Print Output](img/creality.png)
 
 ## Current Issues
-- Bridging seems imperfect. Need to play around more with how bridging works
 - 90 degree corners on the xy axis become thick rounded corners. This is very bad for accuracy
 - Stringing is a big issue
 
 ## Install Instructions
-0. Make sure to have PrusaSlicer installed, opened at least once and followed the initial setup guide
-1. Go to the [Releases](https://github.com/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config/releases) page
-2. Download the file `Source code (zip)` from the latest release
-3. Open up windows search and type in `%APPDATA%`, then press enter
-4. Enter the `PrusaSlicer` folder in the newly opened explorer window
-5. Open the Source Code .zip file, navigate into `PrusaSlicer-Ender3-v3-SE-Config-main`, then into `PrusaSlicer`
-6. Copy everything in the .zip's `PrusaSlicer` folder to the `PrusaSlicer` folder in AppData 
-    - Replace files when asked
+See the [Latest Release](https://github.com/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config/releases) for install instructions
 
 # Misc
 This section contains other discoveries and curiosities i have found on the V3 SE
