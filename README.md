@@ -1,7 +1,7 @@
 [![Version](https://img.shields.io/github/v/release/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config)](https://github.com/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config/releases) [![Donations](https://img.shields.io/badge/Support%20on-Ko--Fi-red)](https://ko-fi.com/suchmememanyskill) ![GitHub all releases](https://img.shields.io/github/downloads/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config/total)
 
 # PrusaSlicer-Ender3-v3-SE-Config
-An attempt at making a PrusaSlicer Profile for the Ender 3 v3 SE. This is supposed to be as close as a direct port of Creality's profile in Creality Print.
+A PrusaSlicer Profile for the Ender 3 v3 SE. This is supposed to be as close as a direct port of Creality's profile in Creality Print.
 
 Feel free to contribute! If you have any questions, suggestions or improvements, feel free to reach out on [the Github discussions tab](https://github.com/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config/discussions) or [Discord](https://discord.com/users/249186838592487425)
 
