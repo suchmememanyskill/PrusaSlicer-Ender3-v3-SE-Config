@@ -13,13 +13,16 @@ Feel free to contribute! If you have any questions, suggestions or improvements,
 
 ## Current Issues
 - 90 degree corners on the xy axis become thick rounded corners. This is very bad for accuracy
-- Stringing is a big issue
 
 ## Install Instructions
 See the [Latest Release](https://github.com/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config/releases) for install instructions
 
 # Misc
 This section contains other discoveries and curiosities i have found on the V3 SE
+
+## Getting the print preview info to work on the stock display
+
+This profile by default does not emit the needed details to make the display show the print time, filament used and layer height before a print. [A workaround is available here](pre_print_info.md)
 
 ## OctoPrint calibrate before print
 To auto calibrate before each print, place the following GCODE at `Settings` > `Printer` > `GCODE Scripts` > `Before print job starts` in OctoPrint:
