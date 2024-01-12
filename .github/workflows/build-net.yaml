@@ -1,4 +1,4 @@
-name: Windows
+name: Build PrintMetadataRelocator
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
     - name: Compile AOT build
       run: |
         cd PrintMetadataRelocator
-        dotnet publish -r win-x64 -c Release -o out
+        dotnet publish PrintMetadataRelocator.csproj -r win-x64 -c Release -o out
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
