@@ -6,7 +6,7 @@ Anything sliced currently with this profile will not show these statistics. But 
 ## Setup (Dotnet AOT, faster, Windows only)
 1. Download [PrintMetadataRelocator.exe](https://github.com/suchmememanyskill/PrusaSlicer-Ender3-v3-SE-Config/releases/latest/download/PrintMetadataRelocator.exe)
 2. Copy the file somewhere and note down its full path. 
-    - Windows makes it unneseseraily difficult to get the full path from something. I'm unsure if this in standard windows, but i can right click a file > Copy as Path. This does add quotes to the path but you can just remove those
+    - To geht the full path in Windows, hold the shift key on your keyboard and do a right-click on PrintMetadataRelocator.exe. Then click ob copy path. This does add quotes to the path but you can just remove those.
     - For this example, i'll place it on the root of my C:/ drive
 3. Open PrusaSlicer
     - Make sure you are in 'Expert' mode
