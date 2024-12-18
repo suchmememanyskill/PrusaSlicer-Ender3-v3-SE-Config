@@ -1,4 +1,6 @@
-﻿if (args.Length != 1)
+﻿using System.Globalization;
+
+if (args.Length != 1)
     Environment.Exit(1);
 
 var filename = args[0];
@@ -29,11 +31,11 @@ var timeMults = new Dictionary<char, int>()
 
 var lineTrackers = new Dictionary<string, Action<string>>()
 {
-    { "; filament used [mm] = ", x => filamentUsedMillimeter = float.Parse(x) },
-    { "; layer_height = ", x => layerHeight = float.Parse(x) },
+    { "; filament used [mm] = ", x => filamentUsedMillimeter = float.Parse(x, CultureInfo.InvariantCulture) },
+    { "; layer_height = ", x => layerHeight = float.Parse(x, CultureInfo.InvariantCulture) },
     {
         "; estimated printing time (normal mode) = ",
-        x => timeInSeconds = x.Split(' ').Select(y => int.Parse(y[..^1]) * timeMults[y[^1]]).Sum()
+        x => timeInSeconds = x.Split(' ').Select(y => int.Parse(y[..^1], CultureInfo.InvariantCulture) * timeMults[y[^1]]).Sum()
     }
 };
 
